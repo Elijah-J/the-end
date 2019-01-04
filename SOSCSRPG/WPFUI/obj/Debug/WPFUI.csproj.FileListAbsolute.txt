@@ -13,3 +13,6 @@ C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\WPFUI\ob
 C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\WPFUI\obj\Debug\WPFUI.csproj.CoreCompileInputs.cache
 C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\WPFUI\obj\Debug\WPFUI.exe
 C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\WPFUI\obj\Debug\WPFUI.pdb
+C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\WPFUI\bin\Debug\Engine.dll
+C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\WPFUI\bin\Debug\Engine.pdb
+C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\WPFUI\obj\Debug\WPFUI.csproj.CopyComplete
