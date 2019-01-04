@@ -1,0 +1,6 @@
+C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\Engine\bin\Debug\Engine.dll
+C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\Engine\bin\Debug\Engine.pdb
+C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\Engine\obj\Debug\Engine.csprojAssemblyReference.cache
+C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
+C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\Engine\obj\Debug\Engine.dll
+C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\Engine\obj\Debug\Engine.pdb
