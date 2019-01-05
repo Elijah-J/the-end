@@ -4,3 +4,4 @@ C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\Engine\o
 C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
 C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\Engine\obj\Debug\Engine.dll
 C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\Engine\obj\Debug\Engine.pdb
+C:\Users\elija\OneDrive\Desktop\csharp_projects\the_end-master\SOSCSRPG\Engine\obj\Debug\Engine.g.resources

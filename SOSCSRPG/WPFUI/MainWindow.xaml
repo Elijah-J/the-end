@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFUI"
         mc:Ignorable="d"
+        FontSize="11pt"
         Title="The End" Height="768" Width="1024">
     <Grid>
         <Grid.RowDefinitions>
@@ -21,6 +22,7 @@
         <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="Menu" Background="Orange"></Label>
         <Grid Grid.Row="1" Grid.Column="0" Background="Red">
             <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
                 <RowDefinition Height="Auto"></RowDefinition>
                 <RowDefinition Height="Auto"></RowDefinition>
                 <RowDefinition Height="Auto"></RowDefinition>
@@ -46,10 +48,51 @@
             <Label Grid.Row="4" Grid.Column="1" Content="{Binding CurrentPlayer.ExperiencePoints}"></Label>
             <Label Grid.Row="5" Grid.Column="0" Content="Level:"></Label>
             <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.Level}"></Label>
-            
-           
+            <Button Grid.Row="6" Grid.Column="1" Content="Add XP" Click="ButtonBase_OnClick"></Button>
         </Grid>
-        <Label Grid.Row="1" Grid.Column="1" Content="Game Data" Background="Blue"></Label>
+
+        <Grid Grid.Row="1" Grid.Column="1" 
+              Background="Beige">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black"
+                    BorderThickness="1">
+                <Grid Margin="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0"
+                               HorizontalAlignment="Center"
+                               Text="{Binding CurrentLocation.Name}">
+                        
+                    </TextBlock>
+                    
+                    <Image Grid.Row="1"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           Height="115"
+                           Width="98"
+                           Source="{Binding CurrentLocation.ImageName}">
+                    </Image>
+                           
+                    <TextBlock Grid.Row="2"
+                               HorizontalAlignment="Center"
+                               Text="{Binding CurrentLocation.Description}">
+                    </TextBlock>
+                </Grid>
+            </Border>
+        </Grid>
         <Label Grid.Row="2" Grid.Column="0" Content="Inventory/Quests" Background="Green"></Label>
         <Label Grid.Row="2" Grid.Column="1" Content="Combat/Movement Controls" Background="Pink"></Label>
     </Grid>
