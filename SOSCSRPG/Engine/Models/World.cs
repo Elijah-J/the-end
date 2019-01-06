@@ -34,7 +34,8 @@ namespace Engine.Models
                     return loc;
                 }
             }
-            return null;
+
+            return null; // no such object was found
         }
     }
 }

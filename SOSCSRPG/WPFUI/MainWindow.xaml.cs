@@ -16,9 +16,8 @@ using Engine.ViewModels;
 
 namespace WPFUI
 {
-    /// <summary>
+    /// Launcher
     /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         private GameSession _gameSession; 
@@ -30,9 +29,29 @@ namespace WPFUI
             DataContext = _gameSession;
         }
 
-        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        // moves north
+        private void OnClick_MoveNorth(object sender, RoutedEventArgs e)
         {
-            _gameSession.CurrentPlayer.ExperiencePoints = _gameSession.CurrentPlayer.ExperiencePoints + 10;
+            _gameSession.MoveNorth();
         }
+
+        // moves west
+        private void OnClick_MoveWest(object sender, RoutedEventArgs e)
+        {
+            _gameSession.MoveWest();
+        }
+
+        // moves south
+        private void OnClick_MoveSouth(object sender, RoutedEventArgs e)
+        {
+            _gameSession.MoveSouth();
+        }
+
+        // moves east
+        private void OnClick_MoveEast(object sender, RoutedEventArgs e)
+        {
+            _gameSession.MoveEast();
+        }
+
     }
 }
