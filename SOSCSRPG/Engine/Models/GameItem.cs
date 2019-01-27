@@ -21,7 +21,7 @@ namespace Engine.Models
             Weight = weight;
         }
 
-        // since the user will add to items, we will make a clone
+        // since the user will add to items, we will make a clone        
         public GameItem Clone()
         {
             return new GameItem(ItemTypeID, Name, Price, Weight);
