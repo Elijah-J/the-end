@@ -1,5 +1,5 @@
 # The End
-This is a simple RPG, including quests, monsters, and recipes.
+This is a simple RPG, including quests and items.
 
 # What I learned
 * Structure and syntax of C# programs
