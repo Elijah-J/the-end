@@ -16,6 +16,9 @@ namespace Engine.Factories
             newWorld.AddLocation(0, 0, "Town Square", "This is the center of town", "/Engine;component/Images/Locations/town_square.png"); // town square
             newWorld.AddLocation(-1, -1, "Library", "This is the center of knowlege.", "/Engine;component/Images/Locations/library.jpg"); // library
             newWorld.AddLocation(1, -1, "Sue's Bakery", "This is where the best food in town is!", "/Engine;component/Images/Locations/bakery.png"); // Sue's bakery
+
+            newWorld.LocationAt(1, -1).QuestList.Add(QuestFactory.GetQuestByID(1)); // add quest to our world
+
             newWorld.AddLocation(0, -2, "Mystic Lake", "There is an odd aura about this lake.", "/Engine;component/Images/Locations/mystic_lake.jpg"); // mystic lake
             newWorld.AddLocation(-2, 0, "Werewolf Grove", "Howling is heard here when the full moon rises.", "/Engine;component/Images/Locations/werewolf_grove.jpg"); // werewolf grove
             newWorld.AddLocation(-1, 0, "Hermit's Swamp", "This is the home of an old, scraggly man.", "/Engine;component/Images/Locations/hermits_swamp.jpg"); // hermit's swamp

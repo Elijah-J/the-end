@@ -105,7 +105,7 @@
                     <DataGrid ItemsSource= "{Binding CurrentPlayer.Inventory}"
                               AutoGenerateColumns="False"
                               HeadersVisibility="Column">
-                        
+
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="Name"
                                                 Binding="{Binding Name}"
@@ -115,12 +115,30 @@
                                                 Width="Auto"/>
 
                         </DataGrid.Columns>
-                            
+
                     </DataGrid>
                 </TabItem>
-            </TabControl>
-            
+
+                <TabItem Header="Quests">
+                    <DataGrid ItemsSource= "{Binding CurrentPlayer.Quests}"
+                            AutoGenerateColumns="False"
+                            HeadersVisibility="Column">
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Name"
+                                            Binding="{Binding PlayerQuest.Name}"
+                                            Width="*"/>
+                            <DataGridTextColumn Header="Complete?"
+                                            Binding="{Binding IsCompleted}"
+                                            Width="Auto"/>
+
+                        </DataGrid.Columns>
+
+                        </DataGrid>
+                    </TabItem>
+                </TabControl>
         </Grid>
+        
         <Grid Grid.Row="2" Grid.Column="1"
               Background="PowderBlue"
               >

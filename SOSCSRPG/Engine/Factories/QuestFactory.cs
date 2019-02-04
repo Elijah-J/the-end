@@ -32,5 +32,10 @@ namespace Engine.Factories
                             rewardItems
                             ));
         }
+
+        internal static Quest GetQuestByID(int id) // returns quest from list
+        {
+            return _quests.FirstOrDefault(quest => quest.ID == id); // LINQ 
+        }
     }
 }

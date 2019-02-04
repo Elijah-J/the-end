@@ -13,5 +13,6 @@ namespace Engine.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public string ImageName { get; set; }
+        public List<Quest> QuestList { get; set; } = new List<Quest>(); // list of quests in our game
     }
 }
